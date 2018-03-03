@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS.Plugins", "Brackeys Multiplayer FPS.Plugins.csproj", "{EA05B541-5AFC-6478-57F2-921D2E44A476}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS", "Assembly-CSharp-firstpass.csproj", "{C70BAEEB-148C-29B1-5733-C484BF05F06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS", "Brackeys Multiplayer FPS.csproj", "{2FC59984-106A-BE7A-93B5-AF722F3C5911}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS", "Assembly-CSharp.csproj", "{06496C39-CDCB-1CDE-0B62-D7EC9A73E028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS.Editor.Plugins", "Brackeys Multiplayer FPS.Editor.Plugins.csproj", "{BD0DD9B5-9D6F-660B-90B3-062EBA3A48C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys Multiplayer FPS", "Assembly-CSharp-Editor-firstpass.csproj", "{318FD6D4-1239-DC10-4736-652B17E096FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA05B541-5AFC-6478-57F2-921D2E44A476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA05B541-5AFC-6478-57F2-921D2E44A476}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA05B541-5AFC-6478-57F2-921D2E44A476}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA05B541-5AFC-6478-57F2-921D2E44A476}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FC59984-106A-BE7A-93B5-AF722F3C5911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FC59984-106A-BE7A-93B5-AF722F3C5911}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FC59984-106A-BE7A-93B5-AF722F3C5911}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FC59984-106A-BE7A-93B5-AF722F3C5911}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD0DD9B5-9D6F-660B-90B3-062EBA3A48C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD0DD9B5-9D6F-660B-90B3-062EBA3A48C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD0DD9B5-9D6F-660B-90B3-062EBA3A48C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD0DD9B5-9D6F-660B-90B3-062EBA3A48C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70BAEEB-148C-29B1-5733-C484BF05F06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70BAEEB-148C-29B1-5733-C484BF05F06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70BAEEB-148C-29B1-5733-C484BF05F06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70BAEEB-148C-29B1-5733-C484BF05F06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06496C39-CDCB-1CDE-0B62-D7EC9A73E028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06496C39-CDCB-1CDE-0B62-D7EC9A73E028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06496C39-CDCB-1CDE-0B62-D7EC9A73E028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06496C39-CDCB-1CDE-0B62-D7EC9A73E028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318FD6D4-1239-DC10-4736-652B17E096FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318FD6D4-1239-DC10-4736-652B17E096FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318FD6D4-1239-DC10-4736-652B17E096FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318FD6D4-1239-DC10-4736-652B17E096FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
